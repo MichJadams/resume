@@ -1,0 +1,141 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\newcommand{\SkillsEntry}[2]{      % Same as \PersonalEntry
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}			   % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value	
+		
+\documentclass{resume} % Use the custom resume.cls style
+
+    \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+    \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+    \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+    \name{Michaela Adams} % Your name
+    % \address{B-1 \\ II , U.P. 208016} % Your address
+    %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+    \address{908-451-0751 \\ mjadams66@gmail.com \\ github.com/MichJadams} % Your phone number and email
+    
+    \begin{document}
+    
+    %----------------------------------------------------------------------------------------
+    %	EDUCATION SECTION
+    %----------------------------------------------------------------------------------------
+    
+    \begin{rSection}{Education}
+    
+    {\bf Reed College} \hfill {\em May 2017} 
+    \\ Undergraduate Degree
+    \\ BA in Biology 
+
+    {\bf GraceHopper at Fullstack Academy} \hfill {\em April 2018} 
+    \\ 18 week bootcamp course specilizing full stack web development  
+    %Minor in Linguistics \smallskip \\
+    %Member of Eta Kappa Nu \\
+    %Member of Upsilon Pi Epsilon \\
+    
+    
+    \end{rSection}
+    %----------------------------------------------------------------------------------------
+    %	TECHNICAL STRENGTHS SECTION
+    %----------------------------------------------------------------------------------------
+    
+    \begin{rSection}{Technical Skills}
+    
+    % \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    % Computer Languages &  javaScript \\
+    % Software \& Tools & HTML, LaTeX, CSS, React, Redux, Postgress, SQL \\
+    % \end{tabular}
+    {Prodiceint} \hspace{10ex} {{ JavaScript},{ Node.js}, { Express},{ Redux},{ React},
+    { Sequelize},{ PostrgreSQL},{ Git}}
+    
+    {Knowledgable} \hspace{6ex} {{ Phaser.js},{ Socket.io},{ CSS},{ SQL}, {Python}{}}
+
+    {Some Experience} \hspace{4ex} {{Blender}, \LaTeX,{ Rust}, { WASM}}
+    
+
+
+    \end{rSection}
+    
+    
+    %----------------------------------------------------------------------------------------
+    %	WORK EXPERIENCE SECTION
+    %----------------------------------------------------------------------------------------
+    
+    \begin{rSection}{Experience}
+    
+    \begin{rSubsection}{University of Texas in Austin}{May 2016 - Augest 2016}{Undergraduate Research}{}
+    \item Presented results at a poster conference with over two hundred undergraduate participents
+    \item Constructed a model in R that represented plant response to drought consitions to be used in paper publications
+    \item Implmented and refined a reliable growing protocol for the common bean
+    \end{rSubsection}
+
+    %------------------------------------------------
+    
+    \begin{rSubsection}{Integra Life Sciences, Part-time}{Summer, 2015}{Microbiology Intern}{}
+    \item Shadowed quality control personal in a clean room environment taking samples for environmental testing.
+    \item Recorded air particle contaimnation counts for clean rooms
+    \end{rSubsection}
+    \end{rSection}
+
+    %	EXAMPLE SECTION
+    %----------------------------------------------------------------------------------------
+    
+    % \begin{rSection}{Academic Achievements} \itemsep -2pt
+    % \item Ranked in National Top 0.2\% (amongst 1,200,000 candidates) in JEE Mains 2013 and Top 1\% (amongst 150,000 candidates) in IIT-JEE Advanced 2013
+    % \item Ranked in the State-wise Top 1\% (amongst 70,000 candidates) in State level Engineering competitive Exam (MP PET)
+    % \item Stood first in MBD Talent Search Exam conducted by state government, competing against more than 1000 participants  
+    % \end{rSection}
+    
+    %----------------------------------------------------------------------------------------
+    \begin{rSection}{Projects}
+    \begin{rSubsection}{augMenu}{April 2018}{iOS mobile app}{GraceHopper Academy}
+    \item Generated a library of 3D food models using qlone
+    \item Implmented Google Vision - a Optical Character recognition API to translated pictures of menu text to strings 
+    \end{rSubsection}
+    %------------------------------------------------
+    \begin{rSubsection}{Are You There}{Feburary, 2018}{Browser based multiplayer game}{ Hackathon}
+    \item Implemented sockets and cookie IDs to create a real time, multiplayer browser game
+    \end{rSubsection}
+    %------------------------------------------------
+    \begin{rSubsection}{The Power Store}{Feburary, 2018}{Online Retail Store}{GraceHopper Academy}
+        \item Used react-redux to manage state and 
+        \item Created a PostgreSQL database for storing users and user information
+        \end{rSubsection}
+    \end{rSection}
+    
+    %----------------------------------------------------------------------------------------
+    % \begin{rSection}{Extra-Cirrucular} \itemsep -3pt
+    % \item Secured Gold in M.P. State Throw Ball competition and represented district in State Hand Ball competition
+    % \item Represented Institute in Udghosh’13 and secured second prize in Kho-Kho intramurals
+    % \item Secured second prize in Dance Drama competition in Galaxy’14, inter hall cultural competition of IIT Kanpur
+    % \item Won second prize in Electromania, circuit game designing competition in Takneek’13, inter hall technical festival of IIT Kanpur
+    %  % \item Member, Athletics Team, IIT Kanpur. Attended Summer Sport Camp as a long jumper.
+    % %\item Trained and disciplined in National Cadet Corps (NCC), IIT Kanpur for a year.
+    %  %\item  Participated in Vijyoshi Camp 2012 organized at Indian Institute of Science, Bangalore.
+    %  %\item Won 2nd position in Kho-Kho in Intramurals conducted by Physical Education Section, IIT Kanpur.
+    %  %\item Pursued French as second language during secondary school from Grade 6 to Grade 10. Also participated in French Song Competition and French G.K. Quiz in Class 10th. %
+    
+    % \end{rSection}
+    
+    \end{document}
+    
